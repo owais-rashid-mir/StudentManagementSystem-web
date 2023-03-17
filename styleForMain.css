@@ -1,0 +1,67 @@
+/* CSS code for sidebar of main.php*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+.main-body{
+    width: 100%;
+    min-width: 0px;
+}
+
+.sidebar{
+    width: 16rem;
+    font-size: 1.1rem;
+    transition: all 0.5s ease;
+}
+
+.sidebar a:hover{
+    padding-left: 5px;
+    transition: all 0.5s ease;
+    background-color: #dc3545;
+    color: white;
+}
+
+.sidebar-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.sidebar{
+    background-color: #dc3545;
+    border-radius: 50%;
+    color: white;
+    padding: 3px;
+    margin-right: 4px;
+}
+
+@media (min-width: 300px){
+    #wrap.toggled .sidebar{
+        margin-left: -16rem;
+    }
+}
+
+
+/* CSS code for main form of main.php*/
+.icon i{
+    width: 100px;
+    height: 100px;
+    background:white;
+    font-size: 55px;
+    color:#dc3545;
+    border-radius: 50%;
+
+    padding-top: 18Px;
+    position:relative;
+    left: 35%;
+    bottom: 5px;
+}
+
+.icon i:hover{
+    font-size: 65px;
+    background: #dc3545;
+    color: white;
+}
